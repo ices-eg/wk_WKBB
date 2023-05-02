@@ -7,7 +7,7 @@
 library(sf)
 library(ggplot2)
 
-source(CSquare.R)
+source(CSquares.R)
 
 
 
