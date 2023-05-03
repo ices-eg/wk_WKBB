@@ -16,7 +16,7 @@ add_quadrant <- function(lon, lat, parent_grid, kid_grid){
   return(out)
 }
 
-test <- add_quadrant(lon=csquare_centroid$X, lat=csquare_centroid$Y, parent_grid = 0.5, kid_grid=0.25)
+test <- add_quadrant(lon=csquare_centroid$X, lat=csquare_centroid$Y, parent_grid = parentgridlevel, kid_grid=finalgrid_level)
 
 csquare_grid_new <- sapply(1:length(csquare_grid), function(x) paste0(csquare_grid[x], test[x]))
 
