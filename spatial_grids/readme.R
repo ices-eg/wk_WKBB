@@ -1,7 +1,7 @@
 ###### Spatial Framework for WKBB
 
 ## 1. Define spatial grid extent and size fo grid cells
-  ## List of grids cell size  to be explored: 
+  ## List of grids cell size to be explored: 
     - Seabirds perspective: 
       - 0.25
       - 0.5
@@ -13,20 +13,23 @@
     - Common resolution: 
       - 0.25
       
-## 2.Spatial resolution  
+## 2. Temporal resolution  
 
+  - Year
   - Monthly aggregation 
 
 ## 3 . Fleet segment resolution
   
   - All gears 
   - Active/passive
-  - Pelagic/demersal 
+  - Pelagic/demersal
+  - Gears: Otrwler, liners, gillnets, MIS
 
 ## 4. Activity indicator
   
   - Nb of vessels 
-  - Days at sea  
+  - Fishing days
+  - Total fishing days/fishing days by vessel
 
 ## 5. FISHERIES DATA PRODUCTS
 
@@ -35,19 +38,12 @@
     - Spatial resolution: 0.25
     - Temporal resolution: year
     - Fleet resolution: all gears 
-    - Activity indicator: nb vessel
+    - Activity indicator: nb vessel, fishing days by vessel, total fishing days
 
-  ## 5.1.2. Data product name: fish_2021_area2_0_25_month_all 
+  ## 5.1.2. Data product name: fish_2_2021_area2_0_25_month_all 
     - Special extent: Area 2
     - Spatial resolution: 0.25
     - Temporal resolution: month
-    - Fleet resolution: all gears 
-    - Activity indicator: nb vessel
-	
-  ## 5.2.1. Data product name: fish_2_2021_area2_0_25_month_all 
-    - Special extent: Area 2
-    - Spatial resolution: 0.25
-    - Temporal resolution: month
-    - Fleet resolution: all gears 
-    - Activity indicator: nb vessel, days at sea by vessel, total days at sea
+    - Fleet resolution: by gear
+    - Activity indicator: nb vessel, fishing days by vessel, total fishing days
 	
