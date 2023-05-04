@@ -75,4 +75,10 @@
     - Temporal resolution: month
     - Fleet resolution: by gear (ByRas category)
     - Activity indicator: total fishing days -> mean()
-       
+    
+  ## 5.2.3. Data product name: fish_2_3_2018_2022_neafc_0_25_month_byrasgear_tot_hours  
+    - Special extent: All areas
+    - Spatial resolution: 0.25
+    - Temporal resolution: month
+    - Fleet resolution: by gear (ByRas category)
+    - Activity indicator: total fishing hours -> mean()
